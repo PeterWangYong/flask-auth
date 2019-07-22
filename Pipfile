@@ -1,0 +1,20 @@
+[[source]]
+url = "http://pypi.douban.com/simple"
+verify_ssl = falseCf
+name = "pypi"
+
+[packages]
+flask = "*"
+wtforms = "*"
+flask-sqlalchemy = "*"
+flask-login = "*"
+pymysql = "*"
+watchdog = "*"
+python-dotenv = "*"
+flask-mail = "*"
+flask-wtf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
